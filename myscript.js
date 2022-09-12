@@ -38,10 +38,10 @@ const displayEntries = () => {
   tableDiv.innerHTML = `<table class="table" border="2">
   <tr>
     <th class="th">Name</th>
-    <th class="th">Email ID</th>
+    <th class="th">Email</th>
     <th class="th">Password</th>
-    <th class="th">D.O.B</th>
-    <th class="th">Accepted terms</th>
+    <th class="th">Dob</th>
+    <th class="th">Accepted terms?</th>
   </tr>
     ${rows}
   </table>`;
